@@ -1,0 +1,175 @@
+@media (min-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 792px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+.project-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.project-title2 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+.project-sub {
+	margin-top: 0;
+	font-size: 14px;
+}
+.project-sub2 {
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 24px;
+	font-size: 13px;
+}
+.project-text {
+	font-size: 13px;
+	text-align: justify;
+	margin: 0;
+}
+.project-box-title {
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 0;
+}
+.project-box-text {
+	font-size: 13px;
+	margin: 0;
+}
+
+.main-page {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	/*padding-bottom: 20px;*/
+}
+
+.navbar-brand {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.navbar-projup { font-size: 19px; }
+
+.back-to-top {
+	font-size: 19px;
+	display: none;
+}
+
+/* For switching mail symbol on hover */
+.nav-contact .fa-envelope,
+.nav-contact:hover .fa-envelope-o {
+    display: none;
+}
+.nav-contact:hover .fa-envelope {
+    display: inline;
+    color: #000;
+}
+
+/* For switching up symbol on hover */
+.nav-uptop .fa-angle-double-up,
+.nav-uptop:hover .fa-angle-up {
+    display: none;
+}
+.nav-uptop:hover .fa-angle-double-up {
+    display: inline;
+    color: #000;
+}
+
+/* Hover effect */
+.thumbnail {
+/*	max-width: 100%;
+	display: block;*/
+    position:relative;
+    overflow:hidden;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.top-buffer { margin-top:30px; }
+.bot-buffer { margin-bottom:30px; }
+.img-buffer { 
+	margin-top:60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-gutter [class*="-6"] {
+    padding-left:0;
+}
+
+/* For Sticky footer with fixed navbar - Bootstrap example */
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #fff;
+}
+
+
+/* DEBUG CSS */
+.overflow {
+  position:absolute;
+  top:0;
+  right:0;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  color:#ccc;
+  max-width:90%;
+}
+
+.overflow p {color:#ccc;line-height:50px;padding:0 10px;margin:0;display:inline;}
