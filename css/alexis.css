@@ -2,16 +2,29 @@
   .container {
     width: 600px;
   }
+  
+  /* Get responsive align by screen size */
+  .text-right-resp-sm {text-align:right;}
+  .text-left-resp-sm {text-align:left;}
+  .text-center-resp-sm {text-align:center;}
 }
 @media (min-width: 992px) {
   .container {
     width: 792px;
   }
+  /* Get responsive align by screen size */
+  .text-right-resp-md {text-align:right;}
+  .text-left-resp-md {text-align:left;}
+  .text-center-resp-md {text-align:center;}
 }
 @media (min-width: 1200px) {
   .container {
     width: 970px;
   }
+  /* Get responsive align by screen size */
+  .text-right-resp-lg {text-align:right;}
+  .text-left-resp-lg {text-align:left;}
+  .text-center-resp-lg {text-align:center;}
 }
 
 body, h1, h2, h3, h4, h5, h6 {
