@@ -158,18 +158,7 @@ body {
 }
 
 
-/* DEBUG CSS */
-.overflow {
-  position:absolute;
-  top:0;
-  right:0;
-  display: block;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-top: 0;
-  color:#ccc;
-  max-width:90%;
-}
-
-.overflow p {color:#ccc;line-height:50px;padding:0 10px;margin:0;display:inline;}
+/* 404 page */
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
