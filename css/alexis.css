@@ -125,6 +125,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .top-buffer { margin-top:30px; }
+.top-buffer-2x { margin-top:60px; }
 .bot-buffer { margin-bottom:30px; }
 .img-buffer { 
 	margin-top:60px;
@@ -133,8 +134,8 @@ body, h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
 }
 
-.no-gutter [class*="-6"] {
-    padding-left:0;
+.row-divider {
+	border-top: 1px solid #777;
 }
 
 /* For Sticky footer with fixed navbar - Bootstrap example */

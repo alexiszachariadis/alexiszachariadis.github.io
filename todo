@@ -1,2 +1,3 @@
 #TODO
-* Hover effect "fastnar" på touch enheter om man stegar bakåt
+* Hover effect "fastnar" på touch enheter om man stegar bakåt [Fixad: Laddar nu om sidan helt vid bakåtsteg på iPhone/iPad och hover försvinner]
+* Visa "Till topp" symbolen i samma linje som kontaktgubben på små skärmar, nu gömd
