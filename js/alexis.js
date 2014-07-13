@@ -8,7 +8,7 @@ $( document ).ready(function() {
 		function(){
 			$(this).find('.caption').fadeOut(300,function(){$ (this).stop( true, true )}); //.fadeOut(205) and stop hover
 		}
-	); 
+	);
 });
 
 /* Back to Top scroll */
@@ -29,3 +29,12 @@ jQuery(document).ready(function() {
         return false;
     })
 });
+
+/* Force refresh on "back" on iDevices to reset hover effect */
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    $(window).on('pageshow', function(e) {
+        if (e.originalEvent.persisted) {
+            window.location.reload();
+        }
+    });
+}
