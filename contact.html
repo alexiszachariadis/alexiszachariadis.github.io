@@ -55,8 +55,9 @@
         </div>
         <!-- /.container -->
     </nav>
-	<div class="main-page" style="padding-top:150px">
+	<div class="main-page" style="padding-top:70px">
 		<div class="container" id="body">
+			<div class="top-buffer-2x hidden-xs"></div> <!-- ADD BUFFER FOR NON-IPHONE SCREENS -->
 			<!-- FIRST ROW -->
 			<div class="row">
 				<!-- COL BEGIN -->
@@ -84,9 +85,20 @@
 			<div class="panel-group" id="accordion">
 				<div class="panel panel-default" style="border:none;box-shadow:none;">
 					<div class="panel-heading text-center" style="border:none;background-color:#fff;">
-						<a class="project-sub2" data-toggle="collapse" data-parent="#accordion" href="#collapseCV" style="text-decoration: none; color: #000">
-						Curriculum Vitae&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i>
-						</a>
+						<!-- Animerad nedåtpil för öppning av CV på MED/LG skärmar -->
+						<div class="nav-collapse visible-md visible-lg">
+							<a class="project-sub2" data-toggle="collapse" data-parent="#accordion" href="#collapseCV" style="text-decoration: none; color: #000">
+							Curriculum Vitae&nbsp;&nbsp;&nbsp;
+							<i class="fa fa-angle-down"></i><i class="fa fa-angle-double-down"></i>
+							</a>
+						</div>						
+						<!-- Statisk nedåtpil för öppning av CV på XS/SM skärmar -->
+						<div class="visible-xs visible-sm">						
+							<a class="project-sub2" data-toggle="collapse" data-parent="#accordion" href="#collapseCV" style="text-decoration: none; color: #000">
+							Curriculum Vitae&nbsp;&nbsp;&nbsp;
+							<i class="fa fa-angle-down"></i>
+							</a>
+						</div>
 					</div>
 					<div id="collapseCV" class="panel-collapse collapse">
 						<div class="panel-body" style="border:none;padding:0;">
@@ -99,31 +111,103 @@
 										Employment
 										</p>
 									</div>
-									<div class="col-xs-2">
+									<div class="col-xs-4 col-sm-3">
 										<p class="cv-text">
 										06/2011-07/2012
 										</p>
 									</div>
-									<div class="col-xs-10">
-										<p class="cv-heading">Semrén & Månsson</p>
-										<p class="cv-text">Block text describing employment. Block text describing employment. Block text describing employment. Block text describing employment. Block text describing employment.</p>
+									<!-- HÄR BÖRJAR TEXT: Behövs skrivas två gånger för att justera mer vänster på mina skärmarna -->
+									<!-- Synligt på iPad och uppåt -->
+									<div class="col-sm-9 hidden-xs">
+										<p class="cv-heading">
+										<!-- Titel CV -->
+										Semrén & Månsson
+										</p>
+										<p class="cv-text">
+										<!-- Text CV -->
+										Block text describing employment. Block t t t t t t t text describing employment. Block text describing employment. Block text describing employment. Block text describing employment.</p>
 									</div>
+									<!-- Synligt bara på iPhone -->
+									<div class="row visible-xs">									
+									<div class="col-xs-8 visible-xs" style="margin-left:-45px;">
+										<p class="cv-heading">
+										<!-- Titel CV -->
+										Semrén & Månsson
+										</p>
+										<p class="cv-text">
+										<!-- Text CV -->
+										Block text describing employment. Block t t t t t t t text describing employment. Block text describing employment. Block text describing employment. Block text describing employment.
+										</p>
+									</div>
+									</div>					
 									<div class="clearfix"></div>
-									<!-- BEGIN SECOND CV BLOCK -->
+									<!-- EDUCATION CV BLOCK -->
 									<div class="col-sm-12">
 										<p class="cv-section">
 										Education
 										</p>
 									</div>
-									<div class="col-xs-2">
+									<!-- 1ST EDUCATION ITEM -->
+									<div class="col-xs-4 col-sm-3">
 										<p class="cv-text">
 										08/2008-06/2014
 										</p>
 									</div>
-									<div class="col-xs-10">
-										<p class="cv-heading">School of Architecture, Royal Institute of Technology</p>
-										<p class="cv-text">Block text describing education. Block text describing education. Block text describing education. Block text describing education. Block text describing education.</p>
+									<!-- Synligt på iPad och uppåt -->
+									<div class="col-sm-9 hidden-xs">
+										<p class="cv-heading">
+										<!-- Titel CV -->
+										School of Architecture, Royal Institute of Technology
+										</p>
+										<p class="cv-text">
+										<!-- Text CV -->
+										Block text describing education. Block text describing education. Block text describing education. Block text describing education. Block text describing education.
+										</p>
 									</div>
+									<!-- Synligt bara på iPhone -->
+									<div class="row visible-xs">									
+									<div class="col-xs-8 visible-xs" style="margin-left:-45px;">
+										<p class="cv-heading">
+										<!-- Titel CV -->
+										School of Architecture, Royal Institute of Technology
+										</p>
+										<p class="cv-text">
+										<!-- Text CV -->
+										Block text describing education. Block text describing education. Block text describing education. Block text describing education. Block text describing education.
+										</p>
+									</div>									
+									</div>									
+									<div class="clearfix"></div>
+									<!-- 2ND EDUCATION ITEM -->									
+									<div class="col-xs-4 col-sm-3">
+										<p class="cv-text">
+										08/2003-06/2006
+										</p>
+									</div>
+									<!-- Synligt på iPad och uppåt -->
+									<div class="col-sm-9 hidden-xs">
+										<p class="cv-heading">
+										<!-- Titel CV -->
+										Natural Sciences program, Viktor Rydberg Gymnasium
+										</p>
+										<p class="cv-text">
+										<!-- Text CV -->
+										Block text describing education. Block text describing education. Block text describing education. Block text describing education. Block text describing education.
+										</p>
+									</div>
+									<!-- Synligt bara på iPhone -->
+									<div class="row visible-xs">									
+									<div class="col-xs-8 visible-xs" style="margin-left:-45px;">
+										<p class="cv-heading">
+										<!-- Titel CV -->
+										Natural Sciences program, Viktor Rydberg Gymnasium
+										</p>
+										<p class="cv-text">
+										<!-- Text CV -->
+										Block text describing education. Block text describing education. Block text describing education. Block text describing education. Block text describing education.
+										</p>
+									</div>									
+									</div>									
 									<div class="clearfix"></div>
 								</div> <!-- end inner row -->
 								</div>	<!-- end col -->

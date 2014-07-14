@@ -7,6 +7,7 @@
   .text-right-resp-sm {text-align:right;}
   .text-left-resp-sm {text-align:left;}
   .text-center-resp-sm {text-align:center;}
+  .text-just-resp-sm {text-align:justify;}
 }
 @media (min-width: 992px) {
   .container {
@@ -16,6 +17,7 @@
   .text-right-resp-md {text-align:right;}
   .text-left-resp-md {text-align:left;}
   .text-center-resp-md {text-align:center;}
+  .text-just-resp-md {text-align:justify;}
 }
 @media (min-width: 1200px) {
   .container {
@@ -25,6 +27,7 @@
   .text-right-resp-lg {text-align:right;}
   .text-left-resp-lg {text-align:left;}
   .text-center-resp-lg {text-align:center;}
+  .text-just-resp-lg {text-align:justify;} 
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -123,12 +126,22 @@ body, h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-/* For switching up symbol on hover */
+/* For switching UP symbol on hover */
 .nav-uptop .fa-angle-double-up,
 .nav-uptop:hover .fa-angle-up {
     display: none;
 }
 .nav-uptop:hover .fa-angle-double-up {
+    display: inline;
+    color: #000;
+}
+
+/* For switching DOWN symbol on hover */
+.nav-collapse .fa-angle-double-down,
+.nav-collapse:hover .fa-angle-down {
+    display: none;
+}
+.nav-collapse:hover .fa-angle-double-down {
     display: inline;
     color: #000;
 }
