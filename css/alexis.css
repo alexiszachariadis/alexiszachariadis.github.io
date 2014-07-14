@@ -69,6 +69,27 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+.cv-section {
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 5px;	
+}
+
+.cv-heading {
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.cv-text {
+	font-size: 13px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
 .main-page {
 	padding-top: 100px;
 	padding-bottom: 50px;
