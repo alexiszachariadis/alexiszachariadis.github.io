@@ -215,3 +215,11 @@ body {
 .error-template {padding: 40px 15px;text-align: center;}
 .error-actions {margin-top:15px;margin-bottom:15px;}
 .error-actions .btn { margin-right:10px; }
+
+.btn-default, .btn-default:hover, .btn-default:focus {
+	background-color: #fff;
+	color: #000;
+	text-shadow: none;
+	border: solid 1px #777;
+	font-weight: 300;
+}
