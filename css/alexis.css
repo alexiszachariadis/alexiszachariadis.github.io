@@ -84,18 +84,21 @@ body, h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	margin-bottom: 5px;	
 }
-
 .cv-heading {
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: capitalize;
 	margin: 0;
 }
-
 .cv-text {
 	font-size: 13px;
 	margin-bottom: 5px;
 	text-align: justify;
+}
+.cv-date {
+	font-size: 13px;
+	margin-bottom: 5px;
+	text-align: left;
 }
 
 .main-page {
