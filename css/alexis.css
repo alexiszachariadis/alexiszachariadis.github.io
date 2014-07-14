@@ -71,6 +71,11 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-size: 13px;
 	margin: 0;
 }
+.project-comment {
+	font-size: 13px;
+	font-style: italic;
+	margin-top: 10px;
+}
 
 .cv-section {
 	font-size: 13px;
