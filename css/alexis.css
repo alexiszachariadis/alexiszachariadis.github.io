@@ -102,10 +102,9 @@ body, h1, h2, h3, h4, h5, h6 {
 	text-align: justify;
 }
 .cv-date {
-	font-size: 13px;
+	font-size: 12px;
 	margin-bottom: 5px;
 	text-align: left;
-	display: inline-block;	
 }
 
 .main-page {
