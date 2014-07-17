@@ -38,3 +38,10 @@ if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
         }
     });
 }
+
+//Collapse on click on responsive menu. Also allow touch
+$(function () {
+		$('.navbar-collapse ul li a:not(.dropdown-toggle)').bind('click touchstart', function () {
+				$('.navbar-toggle:visible').click();
+		});
+});
